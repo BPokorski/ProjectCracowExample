@@ -1,5 +1,5 @@
-# ProjectCracovExample
-## Polish
+# Polski
+## Projekt Kraków Przykład
 Przykładowe skrypty zrealizowane w ramach projektu gry RPG w klimatach średniowiecznego Krakowa. <br/>
 
 W ramach przykładu zawarte są cztery klasy:
@@ -11,7 +11,8 @@ W ramach przykładu zawarte są cztery klasy:
 <br/>
 <br/>
 
-## English
+# English
+## ProjectCracovExample
 Example scripts developed for medieval RPG Cracov game.
 
 Example contains four classes:
