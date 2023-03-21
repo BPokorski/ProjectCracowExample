@@ -8,6 +8,7 @@ W ramach przykładu zawarte są cztery klasy:
 - **InputsManager** - klasa odpowiedzialna za sterowanie postacią gracza
 - **Item** - klasa stanowiąca bazę dla wszystkich tworzonych przedmiotów
 
+Uwaga: Obecnie jestem w trakcie tworzenia systemu ekwipunku i jego wizualizacji na postaci
 <br/>
 <br/>
 
@@ -20,3 +21,5 @@ Example contains four classes:
 - **InventoryUIManager** - class responsible for Inventory tab logic - displaying and managing items
 - **InputsManager** - class responsible for controlling Player's inputs
 - **Item** - base class for all created items
+
+Note: I'm currently developing equipment system and its visualisation on the character
