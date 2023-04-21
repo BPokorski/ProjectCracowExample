@@ -1,5 +1,5 @@
 # Polski
-## Gra słowiańska mitologia
+## Gra Słowiańska Mitologia
 Przykładowe skrypty zrealizowane w ramach projektu gry roguelike w klimatach słowiańskiej mitologii. <br/>
 
 W ramach przykładu zawarte są cztery klasy:
