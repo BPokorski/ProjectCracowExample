@@ -1,6 +1,6 @@
 # Polski
-## Projekt Kraków Przykład
-Przykładowe skrypty zrealizowane w ramach projektu gry RPG w klimatach średniowiecznego Krakowa. <br/>
+## Gra słowiańska mitologia
+Przykładowe skrypty zrealizowane w ramach projektu gry roguelike w klimatach słowiańskiej mitologii. <br/>
 
 W ramach przykładu zawarte są cztery klasy:
 - **MenuUIManager** - klasa odpowiedzialna za wyświetlanie menu, zmianę aktywnej zakładki
@@ -13,8 +13,8 @@ Uwaga: Obecnie jestem w trakcie tworzenia systemu ekwipunku i jego wizualizacji 
 <br/>
 
 # English
-## ProjectCracowExample
-Example scripts developed for medieval RPG Cracow game.
+## Slavic Mythology Game
+Example scripts developed for medieval roguelike game based on the slavic mythology.
 
 Example contains four classes:
 - **MenuUIManager** - class responsible for displaying menu and switching active tab
