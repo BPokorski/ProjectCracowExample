@@ -42,19 +42,13 @@ namespace Character
             {
                 PlayerActions.Enable();
             }
-            
-            #region Inventory
-            // MenuUIManager.OnMenuOpenClose += OpenCloseMenu;
-            #endregion
         }
 
         
         private void OnDisable()
         {
             PlayerActions.Disable();
-            #region Inventory
-            // MenuUIManager.OnMenuOpenClose -= OpenCloseMenu;
-            #endregion
+            
         }
 
         public void OpenCloseMenu(bool isMenuShown)
