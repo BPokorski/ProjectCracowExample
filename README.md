@@ -13,14 +13,15 @@ Systems currently developed by me consist of (not all are included in the exampl
 - Adding items to quick slots
 - Bow managing with usage of Object Pooling for arrows
 - Animation Rigging, Changing camera while aiming
+- DI with Zenject
 
 ### Sample Code Description
 Example code consist of six classes:
-- **UIBaseItemInventoryManager** - base class responsible for handling item slots
-- **UIInventoryManager** - class responsible for Inventory tab logic - displaying and managing items
+- **UIBaseItemInventoryManager** - base class responsible for handling and displaying item slots
+- **UIQuickItemInventoryManager** - class derived from UIBaseItemInventoryManager to handle quick items
 - **UIItemSlot** - base class for all UI inventory slots
-- **UIUsableItemInventoryManager** - class responsible for dealing with usable items
-- **InputsManager** - class responsible for controlling Player's inputs
+- **UIQuickItemSlot** - derived class from UIItemSlot to deal with logic dedicated to quick items
+- **UIInventoryManager** - class responsible for displaying inventory tab in UI, as well as description of pointed item
 - **Item** - base class for all created items
 
 ### Current Progress
@@ -44,14 +45,15 @@ Obecne zaimplementowane przeze mnie mechaniki (nie wszystkie ukazane w przykład
 - Dodawanie przedmiotów do quick slotów
 - Mechanika obsługiwania łuku z zastosowaniem Object Pooling do strzał
 - Animation Rigging, zmiana kamery w przypadku celowania
+- Wstrzykiwanie Zależności z wykorzystaniem Zenject
 
 ### Opis Przykładowego Kodu
 W ramach przykładu zawarto sześć klas:
 - **UIBaseItemInventoryManager** - bazowa klasa odpowiedzialna za podstawowe zarządzanie slotami przedmiotów
-- **UIInventoryManager** - klasa odpowiedzialna za logikę zakładki Inventory - wyświetlanie i zarządzanie przedmiotami w ekwipunku
-- **UIItemSlot** - bazowa klasa wyświetlanania wszystkich slotów w ekwipunku
-- **UIUsableItemInventoryManager** - klasa odpowiedzialna za sterowanie przedmiotami używalnymi
-- **InputsManager** - klasa odbierająca inputy od Gracza
+- **UIQuickItemInventoryManager** - klasa dziedzicząca z UIBaseItemInventoryManager utworzona do obsługi podręcznych przedmiotów
+- **UIItemSlot** - bazowa klasa dla wszystkich typów slotów wyświetlanych w UI
+- **UIQuickItemSlot** - klasa dziedzicząca z UIItemSlot do obługi logiki dedykowanej podręcznym przedmiotom
+- **UIInventoryManager** - klasa odpowiedzialna za logikę zakładki Inventory - wyświetlanie zakładki oraz opisów wskazanych przedmiotów
 - **Item** - bazowa klasa do wszystkich tworzonych przedmiotów w grze
 
 ### Obecny postęp
