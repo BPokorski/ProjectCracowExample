@@ -3,6 +3,9 @@
 ## General Description
 Example scripts developed as a member of Jelly Pidgeon Studios for medieval roguelike game based on the slavic mythology.
 
+Currently I am working on refactor code to implement Scriptable Object Driven Architecture.
+
+I am also refactoring project for multiple scene usage.
 ## Currently Developed Systems
 Systems currently developed by me consist of (not all are included in the example code):
 - Player's interaction with different objects
@@ -26,6 +29,9 @@ Example code consist of six classes:
 ## Current Progress
 ### [Presentation Movies](https://drive.google.com/drive/u/1/folders/1-9xJ1gSEDy4d149fdS8M07nTynlMtNPo)
 
+### Screenshots
+<img src="./Screens/Aiming.png" height=50% width=40%> <img src="./Screens/Boss Fight.png" height=50% width=40%>
+<img src="./Screens/Interaction.png" height=50% width=40%> <img src="./Screens/Inventory.png" height=50% width=40%>
 ## Contact
 - Developer: [bartosz.pokorski67@gmail.com](mailto:bartosz.pokorski67@gmail.com)
 - Studio: [jellypidgeonstudios@gmail.com](mailto:jellypidgeonstudios@gmail.com)
