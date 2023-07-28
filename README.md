@@ -25,7 +25,7 @@ Example code consist of six classes:
 - **Item** - base class for all created items
 
 ### Current Progress
-- Movie: [Presentation Movie](https://drive.google.com/file/d/1sZDEz9xtBE6ptAW-93F6tHZtA6treVLx/view?usp=sharing)
+- Movies: [Presentation Movie](https://drive.google.com/drive/u/1/folders/1-9xJ1gSEDy4d149fdS8M07nTynlMtNPo)
 
 ### Contact
 - Developer: [bartosz.pokorski67@gmail.com](mailto:bartosz.pokorski67@gmail.com)
@@ -57,7 +57,7 @@ W ramach przykładu zawarto sześć klas:
 - **Item** - bazowa klasa do wszystkich tworzonych przedmiotów w grze
 
 ### Obecny postęp
-- Filmik: [Prezentacja](https://drive.google.com/file/d/1sZDEz9xtBE6ptAW-93F6tHZtA6treVLx/view?usp=sharing)
+- Filmiki: [Prezentacja](https://drive.google.com/drive/u/1/folders/1-9xJ1gSEDy4d149fdS8M07nTynlMtNPo)
 
 ### Kontakt
 - Developer: [bartosz.pokorski67@gmail.com](mailto:bartosz.pokorski67@gmail.com)
