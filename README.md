@@ -1,4 +1,4 @@
-# Slavic Mythology Game
+# Vadis Game
 
 ## General Description
 Example scripts developed as a member of Jelly Pidgeon Studios for medieval roguelike game based on the slavic mythology.
