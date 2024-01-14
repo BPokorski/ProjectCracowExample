@@ -3,9 +3,8 @@
 ## General Description
 Example scripts developed as a member of Jelly Pidgeon Studios for medieval roguelike game based on the slavic mythology.
 
-Currently I am working on refactor code to implement Scriptable Object Driven Architecture.
+Recently I have implemented player's death feature, improved animations for hp/stamina bar, implemented multi-scene architecture
 
-I am also refactoring project for multiple scene usage.
 ## Currently Developed Systems
 Systems currently developed by me consist of (not all are included in the example code):
 - Player's interaction with different objects
@@ -15,7 +14,13 @@ Systems currently developed by me consist of (not all are included in the exampl
 - Adding items to quick slots
 - Bow managing with usage of Object Pooling for arrows
 - Animation Rigging, Changing camera while aiming
-- DI with Zenject
+- Dependency Injection with Zenject
+- Multi-scene Architecture
+- Animations for Pefect Aiming feature
+- Player Death Management with Restarting Game after death occured
+- Melee Fight with block possibility that reduces incoming damage
+- Stamina regeneration over time
+- UI Animations with DoTween
 
 ## Sample Code Description
 Example code consist of six classes:
