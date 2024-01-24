@@ -23,16 +23,17 @@ Systems currently developed by me consist of (not all are included in the exampl
 - UI Animations with DoTween
 
 ## Sample Code Description
-Example code consist of six classes:
+Example code consist of seven classes:
 - **UIBaseItemInventoryManager** - base class responsible for handling and displaying item slots
 - **UIQuickItemInventoryManager** - class derived from UIBaseItemInventoryManager to handle quick items
 - **UIItemSlot** - base class for all UI inventory slots
 - **UIQuickItemSlot** - derived class from UIItemSlot to deal with logic dedicated to quick items
 - **UIInventoryManager** - class responsible for displaying inventory tab in UI, as well as description of pointed item
 - **Item** - base class for all created items
+- **BaseFightManager** - base class for handling fight logic with different types of weapon
 
 ## Current Progress
-### [Presentation Movies](https://drive.google.com/drive/u/1/folders/1-9xJ1gSEDy4d149fdS8M07nTynlMtNPo)
+### [Demo Movies](https://drive.google.com/drive/u/1/folders/1-9xJ1gSEDy4d149fdS8M07nTynlMtNPo)
 
 ### Screenshots
 <img src="./Screens/Aiming.png" height=50% width=40%> <img src="./Screens/Boss Fight.png" height=50% width=40%>
