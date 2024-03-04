@@ -16,15 +16,13 @@ namespace Character.Fight
         [SerializeField] protected EquippedWeapon _equippedWeapon;
         
         protected IAnimationManager _animationManager;
-        protected IInputsManager _inputs;
+        protected IAttackInputs _inputs;
         
         [Inject]
-        private void Construct(IAnimationManager animationManager, IInputsManager inputs)
+        private void Construct(IAnimationManager animationManager, IAttackInputs inputs)
         {
             _animationManager = animationManager;
             _inputs = inputs;
         }
-        
-        
     }
 }
