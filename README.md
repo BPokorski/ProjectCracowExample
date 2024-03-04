@@ -23,7 +23,7 @@ Systems currently developed by me consist of (not all are included in the exampl
 - UI Animations with DoTween
 
 ## Sample Code Description
-Example code consist of seven classes:
+Example code consist of:
 - **UIBaseItemInventoryManager** - base class responsible for handling and displaying item slots
 - **UIQuickItemInventoryManager** - class derived from UIBaseItemInventoryManager to handle quick items
 - **UIItemSlot** - base class for all UI inventory slots
@@ -31,6 +31,10 @@ Example code consist of seven classes:
 - **UIInventoryManager** - class responsible for displaying inventory tab in UI, as well as description of pointed item
 - **Item** - base class for all created items
 - **BaseFightManager** - base class for handling fight logic with different types of weapon
+- **InputsManager** - centralised class handling inputs
+- **BaseGameEvent / Listener** - base class for creating parametered events / their listeners
+- **BoolEvent / Listener** - actual implementation of GameEvent and its Listener, accepting Bool Parameter
+- **NoParameterEvent / Listener** - special type of event without parameters
 
 ## Current Progress
 ### [Demo Movies](https://drive.google.com/drive/u/1/folders/1-9xJ1gSEDy4d149fdS8M07nTynlMtNPo)
