@@ -1,10 +1,7 @@
-﻿using System;
-using Events;
-using Events.EventArgs;
+﻿using Events.EventArgs;
 using Events.EventListeners;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Serialization;
 
 namespace Inputs
 {
