@@ -24,17 +24,10 @@ Systems currently developed by me consist of (not all are included in the exampl
 
 ## Sample Code Description
 Example code consist of:
-- **UIBaseItemInventoryManager** - base class responsible for handling and displaying item slots
-- **UIQuickItemInventoryManager** - class derived from UIBaseItemInventoryManager to handle quick items
-- **UIItemSlot** - base class for all UI inventory slots
-- **UIQuickItemSlot** - derived class from UIItemSlot to deal with logic dedicated to quick items
-- **UIInventoryManager** - class responsible for displaying inventory tab in UI, as well as description of pointed item
-- **Item** - base class for all created items
-- **BaseFightManager** - base class for handling fight logic with different types of weapon
-- **InputsManager** - centralised class handling inputs
-- **BaseGameEvent / Listener** - base class for creating parametered events / their listeners
-- **BoolEvent / Listener** - actual implementation of GameEvent and its Listener, accepting Bool Parameter
-- **NoParameterEvent / Listener** - special type of event without parameters
+- **New Input System** management
+- **Events** implementation
+- **Bow Fighting System** with classes responsible for handling different parts of this system - input listening, aiming, rotating toward target, crosshair management, shooting, arrow pooling, losing stamina while aiming
+- Some of **UI Inventory slots** management
 
 ## Current Progress
 ### [Demo Movies](https://drive.google.com/drive/u/1/folders/1-9xJ1gSEDy4d149fdS8M07nTynlMtNPo)
